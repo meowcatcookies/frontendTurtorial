@@ -1,0 +1,14 @@
+/* 	*{
+		user-select: none;
+	} */
+	
+	.navBg{
+		background-color:rgba(0,0,0,0.3) ;
+		/* 漸進式效果 all 針對所有css效果 */
+		transition: all 0.8s;
+	}
+	.navBg:hover{
+		background-color:rgba(0,0,0,0.9) ;
+		/* 滑過有鼠標變化成手 */
+		cursor: pointer;
+	}

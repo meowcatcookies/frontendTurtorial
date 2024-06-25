@@ -1,0 +1,142 @@
+版面基本架構與裝置中斷點定義 
+	col:所有裝置
+	col-sm(small):>=576px
+	col-md(medium):>=768px
+	col-lg(large):>=992px
+	col-xl(extra large):>=1200px
+    col-xxl(extra extra large):>=1400px
+
+重點整理:
+Bootstrap 5 預設的 font-size 為 16px, line-height 為 1.5。
+預設的 font-family 為 "Helvetica Neue", Helvetica, Arial, sans-serif。
+此外，所有的 <p> 元素 margin-top: 0 、 margin-bottom: 1rem (16px)。
+
+*標題<h1>~<h6>
+    Bootstrap 中定義了所有的 HTML 標題（h1 到 h6）的樣式。：
+    範例
+    <div class="container"> 
+    <h1>內容(2.5rem = 40px)</h1> 
+    <h2>內容(2rem = 32px)</h2> 
+    <h3>內容(1.75rem = 28px)</h3> 
+    <h4>內容(1.5rem = 24px)</h4> 
+    <h5>內容(1.25rem = 20px)</h5> 
+    <h6>內容(1rem = 16px)</h6> 
+    </div>
+----------------------------------------------------------------------------------------------------
+*Display 標題類
+    Bootstrap 還提供了四個 Display 類來控制標題的樣式: .display-1, .display-2, .display-3, .display-4。
+----------------------------------------------------------------------------------------------------
+*其他類:
+    .lead 讓段落更突出
+    .small  指定更小文字 (為父元素的 85% )
+    .text-start  靠左對齊
+    .text-center  居中對齊
+    .text-end 靠右對齊
+    .text-justify 設定文字對齊,段落中超出螢幕部分文字自動換行
+    .text-nowrap  段落中超出螢幕部分不換行
+    .text-lowercase 設定文字小寫
+    .text-uppercase 設定文字大寫
+    .text-capitalize  設定單詞首字母大寫
+    .initialism 顯示在 <abbr> 元素中的文字以小號字體展示，且可以將小寫字母轉換為大寫字母
+    .list-unstyled  移除預設的清單樣式，清單項中左對齊 ( <ul> 和 <ol> 中)。 
+    .list-inline  將所有列表項放置同一行
+----------------------------------------------------------------------------------------------------
+
+Bootstrap 5 提供了一些有代表意義的顏色類：
+  文字色彩:
+    .text-muted:柔和的文字。
+    .text-primary:重要的文字。
+    .text-success:執行成功的文字。
+    .text-info:代表一些提示資訊的文字。
+    .text-warning:警告文字。 
+    .text-danger:危險操作文字。 
+    .text-secondary:副標題。
+    .text-white:白色文字。 
+    .text-dark:深灰色文字。 
+    .text-light:淺灰色文字。
+	.text-body:黑色文字。
+另外也可以設置文字顏色透明度50% 可以使用.text-white-50、.text-black-50。
+----------------------------------------------------------------------------------------------------
+  背景顏色
+  提供背景顏色的類: 
+    .bg-primary:重要的背景顏色。
+    .bg-success:執行成功背景顏色。
+    .bg-info:資訊提示背景顏色。
+    .bg-warning:警告背景顏色。
+    .bg-danger:危險背景顏色。
+    .bg-secondary:副標題背景顏色。
+    .bg-dark:深灰背景顏色。
+    .bg-light:淺灰背景顏色。
+----------------------------------------------------------------------------------------------------
+補充:
+間距調整:
+屬性 設定:
+m - 這個 class 會設定 margin
+p - 這個 class 會設定 padding
+
+範圍設定:
+t - 這個 class 會設定 margin-top 或 padding-top
+b - 這個 class 會設定 margin-bottom 或 padding-bottom
+l - 這個 class 會設定 margin-left 或 padding-left
+r - 這個 class 會設定 margin-right 或 padding-right
+x - 這個 class 會設定 *-left 和 *-right
+y - 這個 class 會設定 *-top 和 *-bottom
+空白 - 如果邊緣 class 未加入則會設定 margin 或 padding 在元素的四個邊緣
+
+大小設定
+0 - 這個 class 會設定 margin 或 padding 的樣式值為 0
+1 - (預設時) 這個 class 會設定 margin 或 padding 於 $spacer * .25
+2 - (預設時) 這個 class 會設定 margin 或 padding 於 $spacer * .5
+3 - (預設時) 這個 class 會設定 margin 或 padding 於 $spacer
+4 - (預設時) 這個 class 會設定 margin 或 padding 於 $spacer * 1.5
+5 - (預設時) 這個 class 會設定 margin 或 padding 於 $spacer * 3
+auto - 這個 class 會設定 margin 為 auto
+ -->	
+
+
+
+重點整理:
+
+條紋表格
+  .table-striped 類，將在 <tbody> 內的行上看到條紋
+
+帶邊框表格
+  .table-bordered 類可以為表格加入邊框
+
+滑鼠滑過狀態表格
+  .table-hover 類可以為表格的每一行加入滑鼠滑過效果（灰色背景）
+
+黑色背景表格
+  .table-dark 類可以為表格加入黑色背景
+
+黑色條紋表格
+  使用 .table-dark 和 .table-striped 類可以建立黑色的條紋表格
+
+滑鼠滑過效果 - 黑色背景表格
+  使用 .table-dark 和 .table-hover 類可以設置黑色背景表格的滑鼠懸停效果
+
+表頭顏色
+  Bootstrap v5中.thead-dark 類用於給表頭加入黑色背景， .thead-light 類用於給表頭加入灰色背景
+
+較小的表格
+  .table-sm 類用於通過減少內邊距來設置較小的表格
+
+響應式表格
+.table-responsive 類用於建立響應式表格：在螢幕寬度小於 992px 時會建立水平捲軸，如果可視區域寬度大於 992px 則沒有捲軸
+
+以下類設定在指定螢幕寬度下顯示捲軸：
+類名  螢幕寬度
+.table-responsive-sm = 裝置寬度<576px
+.table-responsive-md = 裝置寬度<768px
+.table-responsive-lg = 裝置寬度<992px
+.table-responsive-xl = 裝置寬度<1200px
+
+表格顏色類
+    .table-primary:藍色。
+    .table-success:綠色。
+    .table-info:淺藍色。
+    .table-warning:橘色。
+    .table-danger:紅色。
+    .table-secondary:灰色。
+    .table-dark:深灰色。
+    .table-light:淺灰色。

@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"auto-save",
+		"AutoFileName",
+		"Bootstrap 4x Autocomplete",
+		"Bootstrap 4x Snippets",
+		"BracketHighlighter",
+		"ChineseLocalizations",
+		"Color Highlighter",
+		"CSS3",
+		"Emmet",
+		"FakeImg.pl Image Placeholder Snippet",
+		"HTML5",
+		"jQuery",
+		"JsFormat",
+		"My Snippets",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+	],
+}

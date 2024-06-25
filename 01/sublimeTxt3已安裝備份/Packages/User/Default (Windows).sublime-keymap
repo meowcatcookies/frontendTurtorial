@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+shift+g"], "command": "emmet_wrap_with_abbreviation" },
+	{ "keys": ["ctrl+shift+f"], "command": "reindent" , "args": {"single_line": false}}
+]

@@ -1,0 +1,427 @@
+{
+	"file_history":
+	[
+		"/C/Users/web_teacher/AppData/Roaming/Sublime Text/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/web_teacher/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/web_teacher/AppData/Roaming/Sublime Text/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Users/web_teacher/AppData/Roaming/Sublime Text/Packages/User/auto_save.sublime-settings"
+	],
+	"folder_history":
+	[
+	],
+	"last_version": 4143,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"next_update_check": 1679100374,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 600.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			177.0,
+			120.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"list pa",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/web_teacher/AppData/Roaming/Sublime Text/Packages/auto-save/auto_save.sublime-settings",
+				"/C/Users/web_teacher/AppData/Roaming/Sublime Text/Packages/User/auto_save.sublime-settings"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 800.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "Package Control Messages\n========================\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter 2.30.0\n\n  New release!\n\n  A restart might be required. If you see issues immediately after the update  \n  please try restarting.\n\n  ## 2.30.0\n\n  - **NEW**: When defining key bindings `type` is now defaulted to `['__all__']` if not set.\n  - **FIX**: Ensure Jinja2 support for works for the Jinja2 package (support existed for some older package).\n\nEmmet\n-----\n\n  Emmet v2.4.0\n\n  * Emmet just got better for JSX and Vue devs: use cleaner and shorter\n    abbreviations to work with CSS modules and CSS-in-JS. For example, you can\n    write `..my-class` abbreviation to get `<div styleName={styles['my-class']}>`.\n    Read more in py-emmet v1.2.0 CHANGELOG: https://github.com/emmetio/py-emmet/blob/master/CHANGELOG.md#120-2023-01-19\n    Feature discussion: https://github.com/emmetio/emmet/issues/589\n  * Fixed missing semicolon inside `@media` rule (#173)\n  * Support abbreviations inside `@supports (...) {}` query\n  * Removed extra spaces in CSS snippet output with parentheses in value (https://github.com/emmetio/emmet/issues/647).\n  * Added `script:module` HTML snippet.\n  * Added `g` (`gap`) CSS snippet, replaced `dc` with `display: contents` instead of invalid `display: compact`.\n\nSublimeLinter\n-------------\n\n                ^ ^\n  SublimeLinter 4.20.0\n\n\n  Holy, finally, I mean: f i n a l l y, we have annotation and inline phantoms[*].\n\n  -- By default, nothing changes, you have to opt-in.\n\n  Here's how it goes as it is a bit tricky and also sophisticated:\n\n  ++ Everything is configured within the `styles` section in the global\n     SublimeLinter settings. For that to work, the style definitions accept two\n     new keys, namely `annotation` and `phantom`.\n\n     These are template strings, therefore e.g. \"{code}\", \"{msg}\", \"{linter}\"\n     are typical values used here.\n     Use \"\" (the default) to turn this feature off.\n\n\n  Because this is implemented as \"style\" of an error, you can adjust and\n  fine-tune the feature for each linter separately. (°°)\n\n  This is extremely important to reduce clutter and noise where possible.\n  Because, believe me, this can lead to clutter and noise.\n\n  For example, while writing, you often produce intermittent syntax errors.\n  But that is natural for writing and shouldn't produce too much visual\n  distraction. You can for example define\n\n      \"mypy\": {\n          \"styles\": [\n              {\n                  \"codes\": [\"syntax\"],  # mypy's rule/code for syntax errors\n                  \"icon\": \"cog\",\n                  \"phantom\": \"\",        # no inline phantoms\n                  \"annotation\": \"💣\",   # an icon on the right side\n              },\n              {\n                  \"phantom\": \"{msg}\",   # for all other reported problems\n              }\n          ],\n      },\n\n  to mitigate this effect.\n\n  E.g. for \"annotations\", everything is already pretty much in the code. You\n  could try:\n\n      \"annotations\": {\n          \"styles\": [\n              {\n                  \"types\": [\"error\"],\n                  \"scope\": \"region.redish\",\n                  \"annotation\": \"!\"\n              },\n              {\n                  \"annotation\": \"\",\n                  \"phantom\": \"\"\n              },\n          ]\n      },\n\n\n  Especially phantoms are both annoying and the best thing since sliced bread.\n  So we only show them for \"errors\" (not for \"warnings\" etc) as long as there\n  are any errors and only then also for warnings and other types.  Yeah, that\n  should probably be pluggable but then I would never release anything.\n\n  To quickly toggle the phantoms you can use our `sublime_linter_toggle_highlights`\n  command.  By default it toggles both the squiggles and the inline phantoms but: --\n\n      { \"keys\": [\"ctrl+k\", \"ctrl+k\"],\n        \"command\": \"sublime_linter_toggle_highlights\",\n        \"args\": {\"what\": [\"phantoms\"]}  // or \"squiggles\"\n      },\n\n  -- this is already pluggable.\n\n\n  Sincerely,\n  ❤️\n\n\n  And yes, I do drink coffee:  https://paypal.me/herrkaste\n\n  [*] Annotations are small text fields on the right hand side of the view at\n      the same line of an error.  Because of that they usually have not much\n      space to show anything.\n      Phantoms appear right below the error and use the full width of the view.\n      They make clear what an error is about, have lots of space but - if you\n      have lots of them in a small section - the actual code might get too\n      interspersed.\n  SublimeLinter 4.19.0\n\n  Howdy, long time no see.\n\n  Probably about time,\n\n  --- we slightly refreshed the panel design.\n\n  --- we auto detect more python environment.  Typical local installation on\n  \".env\" or \".venv\" (where Kenneth' put these) and `poetry` are supported.\n\n  --- in the styles settings, `code` is now a prefix match.  For example:\n\n  ```\n      {\n          \"codes\": [\"E3\", \"E2\"],\n          \"scope\": \"comment\",\n      },\n  ```\n\n  will match against rules \"E302\", \"E304\", ...\n\n  Handy for all linters that organize the rules like hierarchical\n  namespaces, like e.g. rubocop and eslint.  (E.g. \"prettier/\")\n\n  --- there is now a global on/off switch.  This is useful for example for\n  plugins with special views.  For example, GitSavvy now lints the commit\n  message views which was not possible before as these scratch, temporary,\n  widget-like views were always skipped.\n\n  But you can also turn SublimeLinter *off* on a per project basis.\n\n  ```\n  {\n      \"folders\": [{ \"path\": \".\" }],\n      \"settings\": {\n          \"SublimeLinter.enabled?\": false,\n      }\n  }\n  ```\n\n  --- and a spelling fixer for the codespell linter\n\n  +++ the usual maintenance commits",
+					"settings":
+					{
+						"buffer_size": 5650,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "Package Control Messages\n========================\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter 2.30.0\n\n  New release!\n\n  A restart might be required. If you see issues immediately after the update  \n  please try restarting.\n\n  ## 2.30.0\n\n  - **NEW**: When defining key bindings `type` is now defaulted to `['__all__']` if not set.\n  - **FIX**: Ensure Jinja2 support for works for the Jinja2 package (support existed for some older package)."
+							},
+							"GwAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAAEUAAAAAAAAAAAAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFkAAAAAAAAAAAAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAAB3AAAAAAAAAAAAAAB3AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAeQAAAAAAAAAAAAAAeQAAAAAAAACHAAAAAAAAAAAAAACHAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAiQAAAAAAAAAAAAAAiQAAAAAAAADYAAAAAAAAAAAAAADYAAAAAAAAANkAAAAAAAAAAAAAANkAAAAAAAAA8QAAAAAAAAAAAAAA8QAAAAAAAADyAAAAAAAAAAAAAADyAAAAAAAAAPMAAAAAAAAAAAAAAPMAAAAAAAAA/gAAAAAAAAAAAAAA/gAAAAAAAAD/AAAAAAAAAAAAAAD/AAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAXAEAAAAAAAAAAAAAXAEAAAAAAABdAQAAAAAAAAAAAABdAQAAAAAAAMoBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							2,
+							1,
+							"insert",
+							{
+								"characters": "\n\nEmmet\n-----\n\n  Emmet v2.4.0\n\n  * Emmet just got better for JSX and Vue devs: use cleaner and shorter\n    abbreviations to work with CSS modules and CSS-in-JS. For example, you can\n    write `..my-class` abbreviation to get `<div styleName={styles['my-class']}>`.\n    Read more in py-emmet v1.2.0 CHANGELOG: https://github.com/emmetio/py-emmet/blob/master/CHANGELOG.md#120-2023-01-19\n    Feature discussion: https://github.com/emmetio/emmet/issues/589\n  * Fixed missing semicolon inside `@media` rule (#173)\n  * Support abbreviations inside `@supports (...) {}` query\n  * Removed extra spaces in CSS snippet output with parentheses in value (https://github.com/emmetio/emmet/issues/647).\n  * Added `script:module` HTML snippet.\n  * Added `g` (`gap`) CSS snippet, replaced `dc` with `display: contents` instead of invalid `display: compact`."
+							},
+							"HQAAAMoBAAAAAAAAywEAAAAAAAAAAAAAywEAAAAAAADMAQAAAAAAAAAAAADMAQAAAAAAANEBAAAAAAAAAAAAANEBAAAAAAAA0gEAAAAAAAAAAAAA0gEAAAAAAADXAQAAAAAAAAAAAADXAQAAAAAAANgBAAAAAAAAAAAAANgBAAAAAAAA2QEAAAAAAAAAAAAA2QEAAAAAAADnAQAAAAAAAAAAAADnAQAAAAAAAOgBAAAAAAAAAAAAAOgBAAAAAAAA6QEAAAAAAAAAAAAA6QEAAAAAAAAwAgAAAAAAAAAAAAAwAgAAAAAAADECAAAAAAAAAAAAADECAAAAAAAAfwIAAAAAAAAAAAAAfwIAAAAAAACAAgAAAAAAAAAAAACAAgAAAAAAANICAAAAAAAAAAAAANICAAAAAAAA0wIAAAAAAAAAAAAA0wIAAAAAAABKAwAAAAAAAAAAAABKAwAAAAAAAEsDAAAAAAAAAAAAAEsDAAAAAAAAjgMAAAAAAAAAAAAAjgMAAAAAAACPAwAAAAAAAAAAAACPAwAAAAAAAMYDAAAAAAAAAAAAAMYDAAAAAAAAxwMAAAAAAAAAAAAAxwMAAAAAAAACBAAAAAAAAAAAAAACBAAAAAAAAAMEAAAAAAAAAAAAAAMEAAAAAAAAegQAAAAAAAAAAAAAegQAAAAAAAB7BAAAAAAAAAAAAAB7BAAAAAAAAKIEAAAAAAAAAAAAAKIEAAAAAAAAowQAAAAAAAAAAAAAowQAAAAAAAATBQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAygEAAAAAAADKAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							3,
+							1,
+							"insert",
+							{
+								"characters": "\n\nSublimeLinter\n-------------\n\n                ^ ^\n  SublimeLinter 4.20.0\n\n\n  Holy, finally, I mean: f i n a l l y, we have annotation and inline phantoms[*].\n\n  -- By default, nothing changes, you have to opt-in.\n\n  Here's how it goes as it is a bit tricky and also sophisticated:\n\n  ++ Everything is configured within the `styles` section in the global\n     SublimeLinter settings. For that to work, the style definitions accept two\n     new keys, namely `annotation` and `phantom`.\n\n     These are template strings, therefore e.g. \"{code}\", \"{msg}\", \"{linter}\"\n     are typical values used here.\n     Use \"\" (the default) to turn this feature off.\n\n\n  Because this is implemented as \"style\" of an error, you can adjust and\n  fine-tune the feature for each linter separately. (°°)\n\n  This is extremely important to reduce clutter and noise where possible.\n  Because, believe me, this can lead to clutter and noise.\n\n  For example, while writing, you often produce intermittent syntax errors.\n  But that is natural for writing and shouldn't produce too much visual\n  distraction. You can for example define\n\n      \"mypy\": {\n          \"styles\": [\n              {\n                  \"codes\": [\"syntax\"],  # mypy's rule/code for syntax errors\n                  \"icon\": \"cog\",\n                  \"phantom\": \"\",        # no inline phantoms\n                  \"annotation\": \"💣\",   # an icon on the right side\n              },\n              {\n                  \"phantom\": \"{msg}\",   # for all other reported problems\n              }\n          ],\n      },\n\n  to mitigate this effect.\n\n  E.g. for \"annotations\", everything is already pretty much in the code. You\n  could try:\n\n      \"annotations\": {\n          \"styles\": [\n              {\n                  \"types\": [\"error\"],\n                  \"scope\": \"region.redish\",\n                  \"annotation\": \"!\"\n              },\n              {\n                  \"annotation\": \"\",\n                  \"phantom\": \"\"\n              },\n          ]\n      },\n\n\n  Especially phantoms are both annoying and the best thing since sliced bread.\n  So we only show them for \"errors\" (not for \"warnings\" etc) as long as there\n  are any errors and only then also for warnings and other types.  Yeah, that\n  should probably be pluggable but then I would never release anything.\n\n  To quickly toggle the phantoms you can use our `sublime_linter_toggle_highlights`\n  command.  By default it toggles both the squiggles and the inline phantoms but: --\n\n      { \"keys\": [\"ctrl+k\", \"ctrl+k\"],\n        \"command\": \"sublime_linter_toggle_highlights\",\n        \"args\": {\"what\": [\"phantoms\"]}  // or \"squiggles\"\n      },\n\n  -- this is already pluggable.\n\n\n  Sincerely,\n  ❤️\n\n\n  And yes, I do drink coffee:  https://paypal.me/herrkaste\n\n  [*] Annotations are small text fields on the right hand side of the view at\n      the same line of an error.  Because of that they usually have not much\n      space to show anything.\n      Phantoms appear right below the error and use the full width of the view.\n      They make clear what an error is about, have lots of space but - if you\n      have lots of them in a small section - the actual code might get too\n      interspersed.\n  SublimeLinter 4.19.0\n\n  Howdy, long time no see.\n\n  Probably about time,\n\n  --- we slightly refreshed the panel design.\n\n  --- we auto detect more python environment.  Typical local installation on\n  \".env\" or \".venv\" (where Kenneth' put these) and `poetry` are supported.\n\n  --- in the styles settings, `code` is now a prefix match.  For example:\n\n  ```\n      {\n          \"codes\": [\"E3\", \"E2\"],\n          \"scope\": \"comment\",\n      },\n  ```\n\n  will match against rules \"E302\", \"E304\", ...\n\n  Handy for all linters that organize the rules like hierarchical\n  namespaces, like e.g. rubocop and eslint.  (E.g. \"prettier/\")\n\n  --- there is now a global on/off switch.  This is useful for example for\n  plugins with special views.  For example, GitSavvy now lints the commit\n  message views which was not possible before as these scratch, temporary,\n  widget-like views were always skipped.\n\n  But you can also turn SublimeLinter *off* on a per project basis.\n\n  ```\n  {\n      \"folders\": [{ \"path\": \".\" }],\n      \"settings\": {\n          \"SublimeLinter.enabled?\": false,\n      }\n  }\n  ```\n\n  --- and a spelling fixer for the codespell linter\n\n  +++ the usual maintenance commits"
+							},
+							"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AAAAAKsLAAAAAAAArAsAAAAAAAAAAAAArAsAAAAAAADBCwAAAAAAAAAAAADBCwAAAAAAAMILAAAAAAAAAAAAAMILAAAAAAAA0QsAAAAAAAAAAAAA0QsAAAAAAADSCwAAAAAAAAAAAADSCwAAAAAAAPcLAAAAAAAAAAAAAPcLAAAAAAAA+AsAAAAAAAAAAAAA+AsAAAAAAAAjDAAAAAAAAAAAAAAjDAAAAAAAACQMAAAAAAAAAAAAACQMAAAAAAAARwwAAAAAAAAAAAAARwwAAAAAAABIDAAAAAAAAAAAAABIDAAAAAAAAFgMAAAAAAAAAAAAAFgMAAAAAAAAWQwAAAAAAAAAAAAAWQwAAAAAAABoDAAAAAAAAAAAAABoDAAAAAAAAGkMAAAAAAAAAAAAAGkMAAAAAAAAjAwAAAAAAAAAAAAAjAwAAAAAAACNDAAAAAAAAAAAAACNDAAAAAAAAKwMAAAAAAAAAAAAAKwMAAAAAAAArQwAAAAAAAAAAAAArQwAAAAAAAC9DAAAAAAAAAAAAAC9DAAAAAAAAL4MAAAAAAAAAAAAAL4MAAAAAAAAyQwAAAAAAAAAAAAAyQwAAAAAAADKDAAAAAAAAAAAAADKDAAAAAAAANIMAAAAAAAAAAAAANIMAAAAAAAA0wwAAAAAAAAAAAAA0wwAAAAAAADUDAAAAAAAAAAAAADUDAAAAAAAANUMAAAAAAAAAAAAANUMAAAAAAAAIw0AAAAAAAAAAAAAIw0AAAAAAAAkDQAAAAAAAAAAAAAkDQAAAAAAAHENAAAAAAAAAAAAAHENAAAAAAAAcg0AAAAAAAAAAAAAcg0AAAAAAAC/DQAAAAAAAAAAAAC/DQAAAAAAAMANAAAAAAAAAAAAAMANAAAAAAAABw4AAAAAAAAAAAAABw4AAAAAAAAIDgAAAAAAAAAAAAAIDgAAAAAAAAkOAAAAAAAAAAAAAAkOAAAAAAAAXA4AAAAAAAAAAAAAXA4AAAAAAABdDgAAAAAAAAAAAABdDgAAAAAAALEOAAAAAAAAAAAAALEOAAAAAAAAsg4AAAAAAAAAAAAAsg4AAAAAAACzDgAAAAAAAAAAAACzDgAAAAAAANgOAAAAAAAAAAAAANgOAAAAAAAA2Q4AAAAAAAAAAAAA2Q4AAAAAAAAPDwAAAAAAAAAAAAAPDwAAAAAAABAPAAAAAAAAAAAAABAPAAAAAAAASQ8AAAAAAAAAAAAASQ8AAAAAAABKDwAAAAAAAAAAAABKDwAAAAAAAFIPAAAAAAAAAAAAAFIPAAAAAAAAUw8AAAAAAAAAAAAAUw8AAAAAAABUDwAAAAAAAAAAAABUDwAAAAAAAHMPAAAAAAAAAAAAAHMPAAAAAAAAdA8AAAAAAAAAAAAAdA8AAAAAAAB1DwAAAAAAAAAAAAB1DwAAAAAAAHYPAAAAAAAAAAAAAHYPAAAAAAAAgg8AAAAAAAAAAAAAgg8AAAAAAACDDwAAAAAAAAAAAACDDwAAAAAAAIcPAAAAAAAAAAAAAIcPAAAAAAAAiA8AAAAAAAAAAAAAiA8AAAAAAACJDwAAAAAAAAAAAACJDwAAAAAAAIoPAAAAAAAAAAAAAIoPAAAAAAAAxA8AAAAAAAAAAAAAxA8AAAAAAADFDwAAAAAAAAAAAADFDwAAAAAAAMYPAAAAAAAAAAAAAMYPAAAAAAAAExAAAAAAAAAAAAAAExAAAAAAAAAUEAAAAAAAAAAAAAAUEAAAAAAAAGAQAAAAAAAAAAAAAGAQAAAAAAAAYRAAAAAAAAAAAAAAYRAAAAAAAAB+EAAAAAAAAAAAAAB+EAAAAAAAAH8QAAAAAAAAAAAAAH8QAAAAAAAAzhAAAAAAAAAAAAAAzhAAAAAAAADPEAAAAAAAAAAAAADPEAAAAAAAABwRAAAAAAAAAAAAABwRAAAAAAAAHREAAAAAAAAAAAAAHREAAAAAAABnEQAAAAAAAAAAAABnEQAAAAAAAGgRAAAAAAAAAAAAAGgRAAAAAAAAexEAAAAAAAAAAAAAexEAAAAAAAB8EQAAAAAAAAAAAAB8EQAAAAAAAJIRAAAAAAAAAAAAAJIRAAAAAAAAkxEAAAAAAAAAAAAAkxEAAAAAAACUEQAAAAAAAAAAAACUEQAAAAAAAK4RAAAAAAAAAAAAAK4RAAAAAAAArxEAAAAAAAAAAAAArxEAAAAAAACwEQAAAAAAAAAAAACwEQAAAAAAAMYRAAAAAAAAAAAAAMYRAAAAAAAAxxEAAAAAAAAAAAAAxxEAAAAAAADIEQAAAAAAAAAAAADIEQAAAAAAAPURAAAAAAAAAAAAAPURAAAAAAAA9hEAAAAAAAAAAAAA9hEAAAAAAAD3EQAAAAAAAAAAAAD3EQAAAAAAAEMSAAAAAAAAAAAAAEMSAAAAAAAARBIAAAAAAAAAAAAARBIAAAAAAACOEgAAAAAAAAAAAACOEgAAAAAAAI8SAAAAAAAAAAAAAI8SAAAAAAAAkBIAAAAAAAAAAAAAkBIAAAAAAADZEgAAAAAAAAAAAADZEgAAAAAAANoSAAAAAAAAAAAAANoSAAAAAAAA2xIAAAAAAAAAAAAA2xIAAAAAAADgEgAAAAAAAAAAAADgEgAAAAAAAOESAAAAAAAAAAAAAOESAAAAAAAA6BIAAAAAAAAAAAAA6BIAAAAAAADpEgAAAAAAAAAAAADpEgAAAAAAAAkTAAAAAAAAAAAAAAkTAAAAAAAAChMAAAAAAAAAAAAAChMAAAAAAAAnEwAAAAAAAAAAAAAnEwAAAAAAACgTAAAAAAAAAAAAACgTAAAAAAAAMBMAAAAAAAAAAAAAMBMAAAAAAAAxEwAAAAAAAAAAAAAxEwAAAAAAADYTAAAAAAAAAAAAADYTAAAAAAAANxMAAAAAAAAAAAAANxMAAAAAAAA4EwAAAAAAAAAAAAA4EwAAAAAAAGYTAAAAAAAAAAAAAGYTAAAAAAAAZxMAAAAAAAAAAAAAZxMAAAAAAABoEwAAAAAAAAAAAABoEwAAAAAAAKkTAAAAAAAAAAAAAKkTAAAAAAAAqhMAAAAAAAAAAAAAqhMAAAAAAADpEwAAAAAAAAAAAADpEwAAAAAAAOoTAAAAAAAAAAAAAOoTAAAAAAAA6xMAAAAAAAAAAAAA6xMAAAAAAAA1FAAAAAAAAAAAAAA1FAAAAAAAADYUAAAAAAAAAAAAADYUAAAAAAAAfxQAAAAAAAAAAAAAfxQAAAAAAACAFAAAAAAAAAAAAACAFAAAAAAAAMoUAAAAAAAAAAAAAMoUAAAAAAAAyxQAAAAAAAAAAAAAyxQAAAAAAADzFAAAAAAAAAAAAADzFAAAAAAAAPQUAAAAAAAAAAAAAPQUAAAAAAAA9RQAAAAAAAAAAAAA9RQAAAAAAAA4FQAAAAAAAAAAAAA4FQAAAAAAADkVAAAAAAAAAAAAADkVAAAAAAAAOhUAAAAAAAAAAAAAOhUAAAAAAAA/FQAAAAAAAAAAAAA/FQAAAAAAAEAVAAAAAAAAAAAAAEAVAAAAAAAAQxUAAAAAAAAAAAAAQxUAAAAAAABEFQAAAAAAAAAAAABEFQAAAAAAAGcVAAAAAAAAAAAAAGcVAAAAAAAAaBUAAAAAAAAAAAAAaBUAAAAAAAB7FQAAAAAAAAAAAAB7FQAAAAAAAHwVAAAAAAAAAAAAAHwVAAAAAAAAphUAAAAAAAAAAAAAphUAAAAAAACnFQAAAAAAAAAAAACnFQAAAAAAAK4VAAAAAAAAAAAAAK4VAAAAAAAArxUAAAAAAAAAAAAArxUAAAAAAACyFQAAAAAAAAAAAACyFQAAAAAAALMVAAAAAAAAAAAAALMVAAAAAAAAuBUAAAAAAAAAAAAAuBUAAAAAAAC5FQAAAAAAAAAAAAC5FQAAAAAAALoVAAAAAAAAAAAAALoVAAAAAAAA7RUAAAAAAAAAAAAA7RUAAAAAAADuFQAAAAAAAAAAAADuFQAAAAAAAO8VAAAAAAAAAAAAAO8VAAAAAAAAEhYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEwUAAAAAAAATBQAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"list pa",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/web_teacher/AppData/Roaming/Sublime Text/Packages/auto-save/auto_save.sublime-settings",
+				"/C/Users/web_teacher/AppData/Roaming/Sublime Text/Packages/User/auto_save.sublime-settings"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5650,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5650,
+										5650
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"bracket_highlighter.busy": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-1,-1,-1,-1,720,129,61,945,4c2b87e16e88544293be1581217bf9d2",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
