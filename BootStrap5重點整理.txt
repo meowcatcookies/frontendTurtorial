@@ -1,4 +1,4 @@
-版面基本架構與裝置中斷點定義 
+版面基本架構與裝置中斷點定義
 	col:所有裝置
 	col-sm(small):>=576px
 	col-md(medium):>=768px
@@ -14,13 +14,13 @@ Bootstrap 5 預設的 font-size 為 16px, line-height 為 1.5。
 *標題<h1>~<h6>
     Bootstrap 中定義了所有的 HTML 標題（h1 到 h6）的樣式。：
     範例
-    <div class="container"> 
-    <h1>內容(2.5rem = 40px)</h1> 
-    <h2>內容(2rem = 32px)</h2> 
-    <h3>內容(1.75rem = 28px)</h3> 
-    <h4>內容(1.5rem = 24px)</h4> 
-    <h5>內容(1.25rem = 20px)</h5> 
-    <h6>內容(1rem = 16px)</h6> 
+    <div class="container">
+    <h1>內容(2.5rem = 40px)</h1>
+    <h2>內容(2rem = 32px)</h2>
+    <h3>內容(1.75rem = 28px)</h3>
+    <h4>內容(1.5rem = 24px)</h4>
+    <h5>內容(1.25rem = 20px)</h5>
+    <h6>內容(1rem = 16px)</h6>
     </div>
 ----------------------------------------------------------------------------------------------------
 *Display 標題類
@@ -38,7 +38,7 @@ Bootstrap 5 預設的 font-size 為 16px, line-height 為 1.5。
     .text-uppercase 設定文字大寫
     .text-capitalize  設定單詞首字母大寫
     .initialism 顯示在 <abbr> 元素中的文字以小號字體展示，且可以將小寫字母轉換為大寫字母
-    .list-unstyled  移除預設的清單樣式，清單項中左對齊 ( <ul> 和 <ol> 中)。 
+    .list-unstyled  移除預設的清單樣式，清單項中左對齊 ( <ul> 和 <ol> 中)。
     .list-inline  將所有列表項放置同一行
 ----------------------------------------------------------------------------------------------------
 
@@ -48,17 +48,17 @@ Bootstrap 5 提供了一些有代表意義的顏色類：
     .text-primary:重要的文字。
     .text-success:執行成功的文字。
     .text-info:代表一些提示資訊的文字。
-    .text-warning:警告文字。 
-    .text-danger:危險操作文字。 
+    .text-warning:警告文字。
+    .text-danger:危險操作文字。
     .text-secondary:副標題。
-    .text-white:白色文字。 
-    .text-dark:深灰色文字。 
+    .text-white:白色文字。
+    .text-dark:深灰色文字。
     .text-light:淺灰色文字。
 	.text-body:黑色文字。
 另外也可以設置文字顏色透明度50% 可以使用.text-white-50、.text-black-50。
 ----------------------------------------------------------------------------------------------------
   背景顏色
-  提供背景顏色的類: 
+  提供背景顏色的類:
     .bg-primary:重要的背景顏色。
     .bg-success:執行成功背景顏色。
     .bg-info:資訊提示背景顏色。
@@ -77,8 +77,8 @@ p - 這個 class 會設定 padding
 範圍設定:
 t - 這個 class 會設定 margin-top 或 padding-top
 b - 這個 class 會設定 margin-bottom 或 padding-bottom
-l - 這個 class 會設定 margin-left 或 padding-left
-r - 這個 class 會設定 margin-right 或 padding-right
+s - 這個 class 會設定 margin-left 或 padding-left
+e - 這個 class 會設定 margin-right 或 padding-right
 x - 這個 class 會設定 *-left 和 *-right
 y - 這個 class 會設定 *-top 和 *-bottom
 空白 - 如果邊緣 class 未加入則會設定 margin 或 padding 在元素的四個邊緣
@@ -91,7 +91,7 @@ y - 這個 class 會設定 *-top 和 *-bottom
 4 - (預設時) 這個 class 會設定 margin 或 padding 於 $spacer * 1.5
 5 - (預設時) 這個 class 會設定 margin 或 padding 於 $spacer * 3
 auto - 這個 class 會設定 margin 為 auto
- -->	
+ -->
 
 
 

@@ -9,8 +9,8 @@ mx-auto+d-block:可以使圖片居中對齊
 
 
 m:margin(外距)
-ml:左外距
-mr:右外距
+ms:左外距
+me:右外距
 mt:上外距
 mb:下外距
 my:上下外距
